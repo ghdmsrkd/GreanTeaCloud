@@ -1,0 +1,46 @@
+
+@import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HCRDotum.woff); 
+/*전체 폰트*/
+*{
+	font-family: 'HCRDotum';
+}
+
+#join_form{
+	border: 1px solid #CFCFCF;
+    margin-right: 25%;
+    margin-left: 25%;
+    //padding-right: 200px;
+    //padding-left: 200px;
+    height: 680px;
+    width: auto;
+}
+
+#join-links{
+	text-align: center;
+	width: auto;
+	margin-top : 30px;
+}
+
+#join_h2{
+	padding-bottom : 15px;
+	border-bottom: 1px solid #CFCFCF;
+}
+
+#join_checkbtn{
+	margin-top : 5px;
+}
+
+@media (min-width: @screen-sm-min) {
+  /* ... */
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+  /* ... */
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+  /* ... */
+}
+      

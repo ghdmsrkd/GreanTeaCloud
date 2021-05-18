@@ -1,0 +1,79 @@
+@import url( http://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300);
+html,body,form,#wrap {
+	height:100%;
+}
+/*
+body>#wrap {
+	height:auto !important;
+	height:auto;
+	min-height:100%;
+}
+*/
+ul,li {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+a {
+	text-decoration:none;
+}
+img {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+.clearfix:before,.clearfix:after {
+	content:" ";
+	display:table;
+}
+.clearfix:after {
+	clear:both;
+}
+.clearfix {
+	*zoom:1;
+}
+#instagram-container {
+	max-width: 100%;
+	width:820px;
+	margin:0 auto;
+	margin-top: 1.5px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#instagram-container h1 {
+	font-family:'Open Sans';
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	color:#888;
+}
+ul.myfeed {
+	position:relative;
+	width:100%;
+	font-size:0;
+}
+ul.myfeed li {
+	position:relative;
+	display:inline-block;
+	margin:0 5px 5px 0;
+}
+ul.myfeed li img {
+	width:200px;
+	height: 200px;
+	object-fit: cover;
+}
+ul.myfeed li a:hover {
+	opacity:0.7;
+	transition:opacity 0.5s;
+	-webkit-transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s;
+	-o-transition: opacity 0.5s;
+}
+@media(max-width:410px){
+	ul.myfeed li img {
+		width:160px;
+		height: 160px;
+		object-fit: cover;
+	}
+}

@@ -1,0 +1,112 @@
+
+@import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HCRDotum.woff); 
+/*전체 폰트*/
+*{
+	font-family: 'HCRDotum';
+}
+/*내비바의 스타일 */
+.navbar-default {	
+	background-color: #F2F2F2;
+	border-color: #CFCFCF;
+}
+
+ /*제품 선택 버튼들 스타일*/
+.container-fluid-product{
+	background-color: white;
+	
+	padding-right: 15px;
+ 	padding-left: 15px;
+ 	//padding-top: 15px;
+ 	padding-bottom: 140px;
+ 	 
+  	margin-right: auto;
+  	margin-left: auto;
+  	text-align: center;
+}
+/*디바이스 선택 버튼 스타일*/
+#btn-p{
+	background-color: rgba(255,255,255,0); 
+}
+/*결과 출력하는 컨테이너 라인의 스타일*/
+.container-fluid-result{
+	background-color: #F2F2F2;
+	border: 1px solid #CFCFCF;
+	border-color: #CFCFCF;
+	
+	padding-right: 15px;
+ 	padding-left: 15px;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	
+  	margin-right: auto;
+  	margin-left: auto;
+  	
+  	border-left: none;
+  	border-right: none; 
+  	
+  	text-align: center;
+}
+/*해상도 및 인치 입력 하는 부분 스타일*/
+#entry_box input {
+  width:86px;
+  height:24px;
+
+  text-align:center;
+  font:  16px Arial, Verdana, Sans-Serif;
+  
+  padding:5px 0 0 0;
+  margin:0 0 2px 0;
+  outline: none;
+}
+/*ppi값 출력해주는 부분의 사진*/
+#resultimg{
+	position: absolute;
+	text-align: center;
+	width: 350px;
+	height: 250px;
+
+}
+/*ppi값 출력하는 택스트의 스타일*/
+#resultppi{
+	position: absolute;
+	top: 15%;
+	//left: 100%;
+	
+	color: black;;
+	text-align: center;
+	text-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+/*부가적인 정보 거리들을 보여주는 컨테이너의  */
+.container-fluid-show{
+	background-color: #FFFFFF;
+	//border: 1px solid #CFCFCF;
+	//border-color: #CFCFCF;
+	
+	padding-right: 15px;
+ 	padding-left: 15px;
+ 	padding-top: 30px;
+ 	padding-bottom: 250px;
+ 	
+  	margin-right: auto;
+  	margin-left: auto;
+  	
+  	border-left: none;
+  	border-right: none; 
+  	
+  	text-align: center;
+}
+
+@media (min-width: @screen-sm-min) {
+  /* ... */
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+  /* ... */
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+  /* ... */
+}
+      
